@@ -1,0 +1,6 @@
+{
+    "code-runner.executorMap": {
+        "gleam": "gleam run",
+    },
+    "code-runner.runInTerminal": true
+}

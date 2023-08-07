@@ -1,0 +1,15 @@
+{
+	"name": "Gleam",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode-remote.remote-containers",
+				"gleam.gleam",
+				"formulahendry.code-runner"
+			]
+		}
+	}
+}
