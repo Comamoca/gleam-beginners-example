@@ -1,15 +1,16 @@
 {
-	"name": "Gleam",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-vscode-remote.remote-containers",
-				"gleam.gleam",
-				"formulahendry.code-runner"
-			]
-		}
-	}
+  "name": "devcontainer Gelam",
+  "image": "ghcr.io/comamoca/gleam/gleam:latest",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.renderWhitespace": "all"
+      }
+    },
+    "extensions": [
+      "ms-vscode-remote.remote-containers",
+      "gleam.gleam",
+      "formulahendry.code-runner"
+    ]
+  }
 }
